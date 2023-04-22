@@ -87,20 +87,23 @@ export const ProjectInfoCard = ({
           </Stack>
         )}
       </Stack>
-      {live !== null && repo !== null && (
+      {console.log("ESTE ES EL LIVE fuero: ", live)}
+      {live !== null | repo !== null && (
         <Stack
           justify={!live && { md: "center", xl: "left" }}
           align="center"
           spacing={8}
           direction={{ base: "column", md: "row" }}
         >
+          {console.log("ESTE ES EL LIVE fuero: ", live)}
+          {console.log("ESTE ES EL repo: ", repo)}
           {live !== null && (
-            <PrimaryButton w="100%" as="a" href={live}>
+            <PrimaryButton margin={repo !== null ? null : "1.5rem"} w={repo !== null ? "100%": "50%"} as="a" href={live}>
               LIVE SITE
             </PrimaryButton>
           )}
           {repo !== null && (
-            <SecondaryButton w="100%" as="a" href={repo}>
+            <SecondaryButton margin={live !== null ? null : "1.5rem"} w={live !== null ? "100%": "50%"} as="a" href={repo}>
               GITHUB REPO
             </SecondaryButton>
           )}

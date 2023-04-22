@@ -23,13 +23,12 @@ const Contact = forwardRef(({ ...props }, ref) => {
         placeItems="center"
       >
         <TextLarge mb="32px" align="center">
-          I'm currently open to freelance and actively looking for full-time job
-          opportunties, so if you like what you've seen please don't hesitate to
-          get in touch!
+        At present, I am available for freelance work and actively seeking full-time employment opportunities. If you find my work appealing, please feel free to contact me without hesitation.
+
         </TextLarge>
         <TextLarge mb="64px" align="center">
-          If you have any questions or would just like to say hi, my inbox is
-          always open and I'll endeavour to get back to you as soon as I can.
+        If you have any inquiries or would simply like to greet me, please don't hesitate to drop me a message. My inbox is always open, and I'll try my best to respond as promptly as possible.
+
         </TextLarge>
         <ContactButton secondary={secondary} />
       </Box>

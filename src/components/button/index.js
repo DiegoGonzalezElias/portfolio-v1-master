@@ -40,6 +40,7 @@ export const PrimaryButton = ({
   theme,
   borderColor,
   w = "188px",
+  margin = null,
   h = "56px",
   size = { base: "sm", sm: "md" },
   ...props
@@ -49,6 +50,7 @@ export const PrimaryButton = ({
     <StyledButton
       {...props}
       w={w}
+      marginTop={margin}
       h={h}
       size={size}
       variant="ghost"
@@ -69,6 +71,7 @@ export const SecondaryButton = ({
   children,
   theme,
   w = "188px",
+  margin = null,
   h = "56px",
   size = { base: "sm", sm: "md" },
   ...props
@@ -78,6 +81,7 @@ export const SecondaryButton = ({
     <StyledButton
       {...props}
       w={w}
+      marginTop={margin}
       h={h}
       size={size}
       bg={colorDark}

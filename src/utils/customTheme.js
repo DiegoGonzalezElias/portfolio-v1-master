@@ -7,6 +7,9 @@ const breakpoints = createBreakpoints({
 });
 
 const theme = extendTheme({
+  config: {
+    initialColorMode: "dark",
+  },
   styles: {
     global: (props) => ({
       html: {

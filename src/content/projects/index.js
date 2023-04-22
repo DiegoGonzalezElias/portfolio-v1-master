@@ -5,12 +5,12 @@ const projects = [
   {
     name: "Sitetoapp",
     info: [
-      "Search for jobs available on the Github Jobs site, with reimagined, fully responsive design and functionality.",
-      "You can search by job title/keyword, location or full time positions.",
-      "Supports light/dark mode.",
+      "Develop a customized Android or IOS mobile app using your website URL as reference. You can add ads and notifications to your app",
+      "You can see a previsualization of your website in small devices",
+      "Supports stripe payment service.",
     ],
     media: <GitjobsImg />,
-    live: "https://go-gitjobs.netlify.app",
+    live: "asdasdasd",
     repo: null,
     id: 1,
   },
@@ -25,7 +25,7 @@ const projects = [
     media: <PortfolioImg />,
     live: null,
     // need to update to current site url once site goes public
-    repo: null,
+    repo: "https://github.com/DiegoGonzalezElias/portfolio-v1-master",
     id: 2,
   },
   

@@ -48,12 +48,11 @@ const About = forwardRef(({ ...props }, ref) => {
         </Box>
         <Stack spacing={12} p="8px" w={{ base: "100%", xl: "50%" }}>
           <Body mb="2em">
-            Hello! I'm Diego, a junior front-end developer based in Cádiz, Spain.
-            I love to work on exciting projects that test what I've learnt,
-            whilst being exposed to the power and potential of the ever-evolving
-            technologies around us. I'm always looking for better, and more
-            importantly, ethical and accessible ways to solve the common
-            problems we are faced with day-to-day.
+          Greetings! I'm Diego, a novice front-end developer located in Cádiz, Spain.
+          I relish the opportunity to tackle thrilling ventures that challenge my knowledge
+          and allow me to explore the ever-progressing technologies available. I'm continuously
+          searching for innovative and, most significantly, ethical and inclusive approaches to
+          address the typical issues we encounter on a regular basis.
           </Body>
           <Box>
             <Heading3>What I've been up to:</Heading3>
