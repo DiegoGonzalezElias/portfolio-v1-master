@@ -40,7 +40,7 @@ const Contact = forwardRef(({ ...props }, ref) => {
 const ContactButton = ({ secondary }) => {
   const [icon, setIcon] = useState(false);
   return (
-    <PrimaryButton as="a" href="mailto:gregogun97@gmail.com" theme={secondary}>
+    <PrimaryButton as="a" href="mailto:diegogonzalezelias@gmail.com" theme={secondary}>
       GET IN TOUCH
     </PrimaryButton>
   );

@@ -44,34 +44,34 @@ const Footer = () => {
       <Stack as="ul" mb="16px" direction="row" spacing={4}>
         <SocialLink
           name="LinkedIn"
-          href="https://www.linkedin.com/in/greg-ogun/"
+          href="https://www.linkedin.com/in/diegogoel/"
           icon={IconLinkedin}
         />
         <SocialLink
           name="Github"
-          href="https://github.com/gregogun"
+          href="https://github.com/DiegoGonzalezElias"
           icon={IconGithubAlt}
         />
         <SocialLink
           name="Twitter"
-          href="https://twitter.com/gregogun"
+          href="https://twitter.com/GNZLZDev"
           icon={IconTwitter}
         />
-        <SocialLink
+        {/* <SocialLink
           name="Youtube"
           href="https://www.youtube.com/channel/UCQDUHOvgodaEqjHm9Ihn87w"
           icon={IconYoutube}
-        />
-        <SocialLink
+        /> */}
+        {/* <SocialLink
           name="Twitch"
-          href="https://www.twitch.tv/gregogun"
+          href="https://www.twitch.tv/"
           icon={IconTwitch}
-        />
-        <SocialLink name="Dev" href="https://dev.to/gregogun" icon={IconDev} />
+        /> */}
+       {/*  <SocialLink name="Dev" href="https://dev.to/" icon={IconDev} /> */}
       </Stack>
       <Box display="grid" placeItems="center">
-        <Link href="https://github.com/gregogun">
-          Designed & Coded by Greg Ogun
+        <Link href="https://github.com/DiegoGonzalezElias">
+          Designed & Coded by Diego Gonzalez
         </Link>
       </Box>
     </Box>

@@ -48,7 +48,7 @@ const About = forwardRef(({ ...props }, ref) => {
         </Box>
         <Stack spacing={12} p="8px" w={{ base: "100%", xl: "50%" }}>
           <Body mb="2em">
-            Hello! I'm Greg, a junior front-end developer based in Bedford, UK.
+            Hello! I'm Diego, a junior front-end developer based in Cádiz, Spain.
             I love to work on exciting projects that test what I've learnt,
             whilst being exposed to the power and potential of the ever-evolving
             technologies around us. I'm always looking for better, and more
@@ -60,13 +60,13 @@ const About = forwardRef(({ ...props }, ref) => {
             <Stack as="ul">
               <Bullet as="li">Building this!</Bullet>
               <Bullet as="li">Getting deeper into React and Nodejs</Bullet>
-              <Bullet as="li">Learning GraphQL</Bullet>
-              <Bullet as="li">
+              <Bullet as="li">Learning Flutter</Bullet>
+              {/* <Bullet as="li">
                 Live Coding on{" "}
                 <Link
                   color={secondary}
                   textDecor="underline"
-                  href="https://www.twitch.tv/gregogun"
+                  href="https://www.twitch.tv/"
                 >
                   Twitch
                 </Link>
@@ -80,7 +80,7 @@ const About = forwardRef(({ ...props }, ref) => {
                 >
                   Chingu Voyage 28
                 </Link>
-              </Bullet>
+              </Bullet> */}
             </Stack>
           </Box>
         </Stack>

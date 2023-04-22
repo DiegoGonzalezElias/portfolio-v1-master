@@ -1,9 +1,9 @@
-import lgL from "./light/gitjobs_light@lg.jpg";
-import mdL from "./light/gitjobs_light@md.jpg";
-import smL from "./light/gitjobs_light@sm.jpg";
-import lgD from "./dark/gitjobs_dark@lg.jpg";
-import mdD from "./dark/gitjobs_dark@md.jpg";
-import smD from "./dark/gitjobs_dark@sm.jpg";
+import lgL from "./light/sitetoapp_light@lg.png";
+import mdL from "./light/sitetoapp_light@md.png";
+import smL from "./light/sitetoapp_light@sm.png";
+import lgD from "./dark/sitetoapp_dark@lg.png";
+import mdD from "./dark/sitetoapp_dark@md.png";
+import smD from "./dark/sitetoapp_dark@sm.png";
 
 const gitjobs = {
   light: [lgL, mdL, smL],

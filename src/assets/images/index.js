@@ -19,7 +19,7 @@ export const ImageProfile = () => {
       }}
       src={profile}
       fallbackSrc="https://via.placeholder.com/500"
-      alt="Greg Ogun"
+      alt="Diego Gonzalez"
     />
   );
 };
@@ -28,6 +28,7 @@ export const PortfolioImg = () => {
   const { colorMode } = useColorMode();
   return (
     <Image
+      maxW="850px"
       rounded="8px"
       mx={{ base: "auto", xxl: 0 }}
       objectFit="cover"
@@ -49,6 +50,7 @@ export const GitjobsImg = () => {
   const { colorMode } = useColorMode();
   return (
     <Image
+      maxW="850px"
       rounded="8px"
       mx={{ base: "auto", xxl: 0 }}
       objectFit="cover"

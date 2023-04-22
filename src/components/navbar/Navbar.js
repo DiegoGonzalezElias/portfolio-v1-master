@@ -37,12 +37,6 @@ const Navbar = ({ aboutRef, skillsRef, projectsRef, contactRef }) => {
       direction="row"
       position="relative"
     >
-      <NavMenu
-        aboutRef={aboutRef}
-        skillsRef={skillsRef}
-        projectsRef={projectsRef}
-        contactRef={contactRef}
-      />
       <Icon
         order={{ lg: -1 }}
         stroke={colorDark}
@@ -52,6 +46,13 @@ const Navbar = ({ aboutRef, skillsRef, projectsRef, contactRef }) => {
         h="64px"
         as={Logo}
       />
+      <NavMenu
+        aboutRef={aboutRef}
+        skillsRef={skillsRef}
+        projectsRef={projectsRef}
+        contactRef={contactRef}
+      />
+      
 
       <IconButton
         aria-label={`Toggle ${light ? "dark" : "light"} mode`}
