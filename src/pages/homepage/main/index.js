@@ -22,11 +22,11 @@ const Main = ({ aboutRef, skillsRef, projectsRef, contactRef }) => {
         mb={{ base: "25vh", md: "30vh", xl: "30vh" }}
         w={{ xl: "90%" }}
       />
+      <Projects ref={projectsRef} id="projects" pt="10vh" mb="25vh" />
       <SkipNavContent>
         <About ref={aboutRef} id="about" pt="10vh" mb="30vh" />
       </SkipNavContent>
       <Skills ref={skillsRef} id="skills" pt="10vh" mb="25vh" />
-      <Projects ref={projectsRef} id="projects" pt="10vh" mb="25vh" />
       <Contact ref={contactRef} id="contact" pt="10vh" mb="25vh" />
     </MainLayout>
   );

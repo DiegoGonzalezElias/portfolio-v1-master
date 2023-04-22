@@ -1,7 +1,6 @@
 import { Box, Link, Stack, Text, useColorModeValue } from "@chakra-ui/react";
 import React, { forwardRef, useEffect } from "react";
 import { ImageProfile } from "../../../../assets/images";
-import SpherePulse from "../../../../assets/motion/SpherePulse";
 import { Line, SectionHeader } from "../../../../components/layout";
 import {
   Body,

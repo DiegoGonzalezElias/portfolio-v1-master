@@ -45,16 +45,20 @@ const NavMenu = ({
   return (
     <Box as="nav">
       <FullNav handleClick={handleClick} {...props}>
+        <List>
         <NavMenuItem handleClick={handleClick}>about</NavMenuItem>
         <NavMenuItem handleClick={handleClick}>skills</NavMenuItem>
         <NavMenuItem handleClick={handleClick}>projects</NavMenuItem>
         <NavMenuItem handleClick={handleClick}>contact</NavMenuItem>
+        </List>
       </FullNav>
       <SideNav toRef={toRef} isOpen={isOpen} onOpen={onOpen} onClose={onClose}>
+        <List>
         <NavMenuItem handleClick={handleClick}>about</NavMenuItem>
         <NavMenuItem handleClick={handleClick}>skills</NavMenuItem>
         <NavMenuItem handleClick={handleClick}>projects</NavMenuItem>
         <NavMenuItem handleClick={handleClick}>contact</NavMenuItem>
+        </List>
       </SideNav>
     </Box>
   );
