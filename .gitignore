@@ -14,3 +14,5 @@ dist/*
 .Trashes
 .ethumb.db
 .Thumbs.db
+
+.vercel
