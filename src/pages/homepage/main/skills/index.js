@@ -16,9 +16,13 @@ import {
   IconJS,
   IconResponsive,
   IconRest,
+  IconFlutter,
 } from "../../../../assets/icons";
 import { Body, Heading2 } from "../../../../components/typography";
 import useColorSwitcher from "../../../../utils/hooks/useColorSwitcher";
+//import IconFlutter from "../../../../assets/icons/imported/IconFlutter";
+
+
 
 const Skills = forwardRef(({ ...props }, ref) => {
   return (
@@ -98,7 +102,8 @@ const Frameworks = () => {
       <SkillBox icon={IconJS} name="JavaScript" />
       <SkillBox icon={IconReact} name="React" />
       <SkillBox icon={IconNode} name="Nodejs" />
-      <SkillBox icon={IconElectron} name="Electron" />
+      <SkillBox icon={IconFlutter} name="Flutter" />
+      {/* //<IconFlutter/> */}
     </>
   );
 };

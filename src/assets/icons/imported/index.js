@@ -15,3 +15,4 @@ export { default as IconGit } from "./IconGit";
 export { default as IconWebpack } from "./IconWebpack";
 export { default as IconResponsive } from "./IconResponsive";
 export { default as IconRest } from "./IconRest";
+export { default as IconFlutter } from "./IconFlutter";

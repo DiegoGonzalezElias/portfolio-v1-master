@@ -1,5 +1,6 @@
 import React from "react";
-import { GitjobsImg, PortfolioImg } from "../../assets/images";
+import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg } from "../../assets/images";
+
 
 const projects = [
   {
@@ -28,6 +29,34 @@ const projects = [
     repo: "https://github.com/DiegoGonzalezElias/portfolio-v1-master",
     id: 2,
   },
+  {
+    name: "Magic Puzzles",
+    info: [
+      "Built with Flutter for Android devices, published on google play store.",
+      "Ads integration with admob",
+      "firebase database for user control",
+      "100k+ downloads",
+    ],
+    media: <PuzzlesImg />,
+    live: "https://play.google.com/store/apps/details?id=com.devscorpinc.puzzlesdeslizantesmagicos&gl=ES",
+    // need to update to current site url once site goes public
+    repo: null,
+    id: 3,
+  },
+  {
+    name: "AI Tic-Tac-Toe PWA",
+    info: [
+      "Built with React using vercel.",
+      "Using some algorithms to perform better movements.",
+      "PWA to allow installation on any device.",
+    ],
+    media: <TicTacImg />,
+    live: "https://ai-ttt.vercel.app",
+    // need to update to current site url once site goes public
+    repo: "https://github.com/DiegoGonzalezElias/tic-tac-toe",
+    id: 4,
+  },
+  
   
 ];
 

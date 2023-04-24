@@ -18,4 +18,5 @@ export {
   IconWebpack,
   IconResponsive,
   IconRest,
+  IconFlutter,
 } from "./imported";
