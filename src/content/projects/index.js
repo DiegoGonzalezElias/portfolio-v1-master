@@ -11,7 +11,7 @@ const projects = [
       "Supports stripe payment service.",
     ],
     media: <GitjobsImg />,
-    live: "asdasdasd",
+    live: "https://www.sitetoapp.net",
     repo: null,
     id: 1,
   },
