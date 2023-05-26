@@ -5,6 +5,7 @@ import portfolio from "./portfolio";
 import gitjobs from "./gitjobs";
 import ticTac from "../images/tic-tac/tic-tac.png";
 import puzzles from "../images/puzzles/puzzles.png";
+import pomodoro from "../images/pomodoro/Pomodoro.png";
 
 export const ImageProfile = () => {
   return (
@@ -82,6 +83,22 @@ export const TicTacImg = () => {
       src={ticTac}
       fallbackSrc="https://via.placeholder.com/500"
       alt="tic tac toe react project"
+    />
+  );
+};
+
+export const Pomodoro = () => {
+  return (
+    <Image
+      maxW="850px"
+      rounded="8px"
+      mx={{ base: "auto", xxl: 0 }}
+      objectFit="cover"
+      boxSize="100%"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={pomodoro}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="pomodoro with vue"
     />
   );
 };

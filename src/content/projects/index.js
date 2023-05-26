@@ -1,5 +1,5 @@
 import React from "react";
-import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg } from "../../assets/images";
+import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg, Pomodoro } from "../../assets/images";
 
 
 const projects = [
@@ -55,6 +55,19 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/tic-tac-toe",
     id: 4,
+  },
+  {
+    name: "Pomodoro",
+    info: [
+      "Built with Vuejs using vite.",
+      "Add your todos to a list to be productive.",
+      "Use Pomodoro function to be focused 25min per sesssion.",
+    ],
+    media: <Pomodoro />,
+    live: "https://pomodoro-roan-nu.vercel.app",
+    // need to update to current site url once site goes public
+    repo: "https://github.com/DiegoGonzalezElias/pomodoro",
+    id: 5,
   },
   
   
