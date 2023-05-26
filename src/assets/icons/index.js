@@ -19,4 +19,5 @@ export {
   IconResponsive,
   IconRest,
   IconFlutter,
+  IconVue,
 } from "./imported";

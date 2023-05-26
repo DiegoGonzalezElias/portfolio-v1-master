@@ -16,3 +16,4 @@ export { default as IconWebpack } from "./IconWebpack";
 export { default as IconResponsive } from "./IconResponsive";
 export { default as IconRest } from "./IconRest";
 export { default as IconFlutter } from "./IconFlutter";
+export { default as IconVue } from "./IconVue";

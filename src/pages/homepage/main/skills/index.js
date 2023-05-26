@@ -17,6 +17,7 @@ import {
   IconResponsive,
   IconRest,
   IconFlutter,
+  IconVue,
 } from "../../../../assets/icons";
 import { Body, Heading2 } from "../../../../components/typography";
 import useColorSwitcher from "../../../../utils/hooks/useColorSwitcher";
@@ -114,7 +115,7 @@ const Tools = () => {
       <SkillBox icon={IconRest} name="RESTful API" />
       <SkillBox icon={IconGit} name="Git" />
       <SkillBox icon={IconFigma} name="Figma" />
-      <SkillBox icon={IconAdobe} name="Adobe Suite" />
+      <SkillBox icon={IconVue} name="Vuejs" />
     </>
   );
 };
