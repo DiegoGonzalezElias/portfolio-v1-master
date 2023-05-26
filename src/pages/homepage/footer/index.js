@@ -54,7 +54,7 @@ const Footer = () => {
         />
         <SocialLink
           name="Twitter"
-          href="https://twitter.com/GNZLZDev"
+          href="https://twitter.com/DuneDev"
           icon={IconTwitter}
         />
         {/* <SocialLink
