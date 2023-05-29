@@ -1,5 +1,5 @@
 import React from "react";
-import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg, Pomodoro } from "../../assets/images";
+import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg, Pomodoro, ReactLogo, TypeScriptLogo, NextjsLogo, TailwindLogo, StripeLogo, FirebaseLogo, JsLogo, FlutterLogo, VueLogo, SassLogo } from "../../assets/images";
 
 
 const projects = [
@@ -14,6 +14,7 @@ const projects = [
     live: "https://www.sitetoapp.net",
     repo: null,
     id: 1,
+    logos: [<ReactLogo/>,<NextjsLogo/>,<TailwindLogo/>,<StripeLogo/>,<FirebaseLogo/>]
   },
   {
     name: "This Site",
@@ -28,6 +29,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/portfolio-v1-master",
     id: 2,
+    logos: [<ReactLogo/>,<JsLogo/>]
   },
   {
     name: "Magic Puzzles",
@@ -42,6 +44,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: null,
     id: 3,
+    logos: [<FlutterLogo/>,<FirebaseLogo/>]
   },
   {
     name: "AI Tic-Tac-Toe PWA",
@@ -55,6 +58,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/tic-tac-toe",
     id: 4,
+    logos: [<ReactLogo/>,<TypeScriptLogo/>]
   },
   {
     name: "Pomodoro",
@@ -68,6 +72,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/pomodoro",
     id: 5,
+    logos: [<VueLogo/>,<SassLogo/>]
   },
   
   

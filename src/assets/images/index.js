@@ -6,6 +6,17 @@ import gitjobs from "./gitjobs";
 import ticTac from "../images/tic-tac/tic-tac.png";
 import puzzles from "../images/puzzles/puzzles.png";
 import pomodoro from "../images/pomodoro/Pomodoro.png";
+//logos
+import typescriptLogo from "../images/logos/Typescript_logo.png";
+import reactLogo from "../images/logos/React_logo.png";
+import nextjsLogo from "../images/logos/Nextjs_logo.png";
+import jsLogo from "../images/logos/JS_logo.png";
+import vueLogo from "../images/logos/Vue_logo.png";
+import flutterLogo from "../images/logos/Flutter_logo.png";
+import tailwindLogo from "../images/logos/Tailwind_logo.png";
+import sassLogo from "../images/logos/Sass_logo.png";
+import stripeLogo from "../images/logos/Stripe_logo.png";
+import firebaseLogo from "../images/logos/Firebase_logo.png";
 
 export const ImageProfile = () => {
   return (
@@ -118,3 +129,156 @@ export const PuzzlesImg = () => {
     />
   );
 };
+
+
+//APP TEC USED LOGOS
+export const TypeScriptLogo = () => {
+  return (
+    <Image
+      width="100%"
+      height="20px"
+      maxW="20px"
+      rounded="2px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={typescriptLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="typescript logo"
+    />
+  )
+}
+
+export const ReactLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={reactLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="reactjs logo"
+    />
+  )
+}
+
+export const TailwindLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={tailwindLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Tailwind logo"
+    />
+  )
+}
+
+export const NextjsLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={nextjsLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="nextjs logo"
+    />
+  )
+}
+
+export const JsLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={jsLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="JS logo"
+    />
+  )
+}
+
+export const VueLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={vueLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Vue logo"
+    />
+  )
+}
+
+export const SassLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={sassLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Sass logo"
+    />
+  )
+}
+
+export const StripeLogo = () => {
+  return (
+    <Image
+      width="100%" 
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={stripeLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Stripe logo"
+    />
+  )
+}
+
+
+export const FirebaseLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={firebaseLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Firebase logo"
+    />
+  )
+}
+
+
+export const FlutterLogo = () => {
+  return (
+    <Image
+      width="100%"
+      maxW="20px"
+      rounded="2px"
+      height="20px"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={flutterLogo}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Flutter logo"
+    />
+  )
+}

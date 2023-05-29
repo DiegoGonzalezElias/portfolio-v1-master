@@ -61,6 +61,7 @@ export const ProjectInfoCard = ({
   live,
   repo,
   length,
+  logos,
   ...props
 }) => {
   return (
@@ -76,6 +77,18 @@ export const ProjectInfoCard = ({
         <Heading3 {...props} textAlign={{ md: "center" }}>
           {name}
         </Heading3>
+        <div style={{display:"flex", justifyContent:"center", alignItems:"center", gap:"15px"}}>
+          {
+            logos !== undefined && (
+              logos.map((logo, index) => {
+                return <div  key={index}>
+                  {logo}
+                </div>
+              })
+            )
+          }
+        </div>
+        
         {info.length !== 0 && (
           <Stack spacing={8} as="ul">
             {info.map((item, index) => (
@@ -87,7 +100,7 @@ export const ProjectInfoCard = ({
           </Stack>
         )}
       </Stack>
-      {console.log("ESTE ES EL LIVE fuero: ", live)}
+      
       {live !== null | repo !== null && (
         <Stack
           justify={!live && { md: "center", xl: "left" }}
@@ -95,8 +108,7 @@ export const ProjectInfoCard = ({
           spacing={8}
           direction={{ base: "column", md: "row" }}
         >
-          {console.log("ESTE ES EL LIVE fuero: ", live)}
-          {console.log("ESTE ES EL repo: ", repo)}
+         
           {live !== null && (
             <PrimaryButton margin={repo !== null ? null : "1.5rem"} w={repo !== null ? "100%": "50%"} as="a" href={live}>
               LIVE SITE
