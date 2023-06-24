@@ -1,5 +1,5 @@
 import React from "react";
-import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg, Pomodoro, ReactLogo, TypeScriptLogo, NextjsLogo, TailwindLogo, StripeLogo, FirebaseLogo, JsLogo, FlutterLogo, VueLogo, SassLogo } from "../../assets/images";
+import { GitjobsImg, PortfolioImg, TicTacImg, PuzzlesImg, Pomodoro, ReactLogo, TypeScriptLogo, NextjsLogo, TailwindLogo, StripeLogo, FirebaseLogo, JsLogo, FlutterLogo, VueLogo, SassLogo, TalkHub } from "../../assets/images";
 
 
 const projects = [
@@ -72,6 +72,20 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/pomodoro",
     id: 5,
+    logos: [<VueLogo/>,<SassLogo/>]
+  },
+  {
+    name: "talkHub",
+    info: [
+      "Built with Vuejs using vite.",
+      "log in with google.",
+      "add another user and chat with him/her in real time.",
+    ],
+    media: <TalkHub />,
+    live: "https://talkhub-indol.vercel.app/",
+    // need to update to current site url once site goes public
+    repo: "https://github.com/DiegoGonzalezElias/talkhub",
+    id: 6,
     logos: [<VueLogo/>,<SassLogo/>]
   },
   
