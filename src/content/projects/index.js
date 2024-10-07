@@ -11,10 +11,10 @@ const projects = [
       "Supports stripe payment service.",
     ],
     media: <GitjobsImg />,
-    live: "https://www.sitetoapp.net",
+    live: "https://sitetoapp.vercel.app",
     repo: null,
     id: 1,
-    logos: [<ReactLogo/>,<NextjsLogo/>,<TailwindLogo/>,<StripeLogo/>,<FirebaseLogo/>]
+    logos: [<ReactLogo />, <NextjsLogo />, <TailwindLogo />, <StripeLogo />, <FirebaseLogo />]
   },
   {
     name: "This Site",
@@ -29,7 +29,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/portfolio-v1-master",
     id: 2,
-    logos: [<ReactLogo/>,<JsLogo/>]
+    logos: [<ReactLogo />, <JsLogo />]
   },
   {
     name: "Magic Puzzles",
@@ -44,7 +44,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: null,
     id: 3,
-    logos: [<FlutterLogo/>,<FirebaseLogo/>]
+    logos: [<FlutterLogo />, <FirebaseLogo />]
   },
   {
     name: "AI Tic-Tac-Toe PWA",
@@ -58,7 +58,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/tic-tac-toe",
     id: 4,
-    logos: [<ReactLogo/>,<TypeScriptLogo/>]
+    logos: [<ReactLogo />, <TypeScriptLogo />]
   },
   {
     name: "Pomodoro",
@@ -72,7 +72,7 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/pomodoro",
     id: 5,
-    logos: [<VueLogo/>,<SassLogo/>]
+    logos: [<VueLogo />, <SassLogo />]
   },
   {
     name: "talkHub",
@@ -86,10 +86,10 @@ const projects = [
     // need to update to current site url once site goes public
     repo: "https://github.com/DiegoGonzalezElias/talkhub",
     id: 6,
-    logos: [<VueLogo/>,<SassLogo/>]
+    logos: [<VueLogo />, <SassLogo />]
   },
-  
-  
+
+
 ];
 
 export default projects;
